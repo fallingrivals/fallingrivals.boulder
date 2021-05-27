@@ -455,9 +455,8 @@ section {
     text-decoration: none;
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+@media (max-width :991px)
+{
     header, header.sticky {
         padding: 10px 20px;
     }
